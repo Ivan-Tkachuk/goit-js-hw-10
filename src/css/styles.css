@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
@@ -18,3 +19,46 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  padding: 0;
+}
+
+.country-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5;
+}
+.country-list li p {
+  margin: 0;
+}
+
+.country-info {
+  padding: 0;
+}
+
+.country-info ul {
+  padding: 0;
+}
+
+.country-info div {
+display: flex;
+align-items: center;
+gap: 10px;
+margin: 0;
+}
+
+.country-info div h2 {
+  margin: 0;
+}
+
+.country-info ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  }
+  .country-info ul li p, h3 {
+    margin: 0;
+  }
