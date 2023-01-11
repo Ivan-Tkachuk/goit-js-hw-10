@@ -75,11 +75,11 @@ function onFetchError(error) {
   removeInfo();
   removeList();
 
-  Notiflix.Notify.failure(`Oops, there is no country with that name`);
+  Notiflix.Notify.failure(`There is no country with that name`);
 }
 
 function onToMuchResults(warning) {
   Notiflix.Notify.info(
-    'Too many matches found. Please enter a more specific name.'
+    'Too many matches found! Please enter a more specific name.'
   );
 }
